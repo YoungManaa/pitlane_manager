@@ -20,7 +20,7 @@ jobs:
           pip install pyinstaller
 
       - name: Build with PyInstaller
-        run: pyinstaller --onefile --noconsole "matej appka.py"
+        run: pyinstaller --onefile --noconsole "matej_appka.py"
 
       - name: Upload EXE Artifact
         uses: actions/upload-artifact@v4
